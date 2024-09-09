@@ -7,10 +7,10 @@ body {
     align-content: center;
     padding: 30px;
     min-height: 100vh;
-    background-image: url('walpaper\ shreck.jpg'); /* Define a imagem de fundo */
-    background-size: cover; /* Faz a imagem cobrir todo o corpo, mantendo a proporção */
-    background-position: center; /* Centraliza a imagem no corpo */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-image: url('walpaper\ shreck.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 p {
@@ -23,7 +23,7 @@ p {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    align-items: center; /* Adiciona alinhamento centralizado dos itens */
+    align-items: center; 
     width: 100%;
 }
 
@@ -73,7 +73,7 @@ p {
 }
 
 .botao_remover {
-    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    padding: 10px 20px; 
     border-radius: 25px;
     border-style: inset;
 }
