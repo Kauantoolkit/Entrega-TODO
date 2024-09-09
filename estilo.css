@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    align-content: center;
+    padding: 30px;
+    min-height: 100vh;
+    background-image: url('walpaper\ shreck.jpg'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o corpo, mantendo a proporção */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#tarefa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; /* Adiciona alinhamento centralizado dos itens */
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px; 
+    width: 90%; 
+    max-width: 90%; 
+    box-sizing: border-box; 
+    background-color: white;
+}
+
+.item div {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.task {
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.checkbox {
+    transform: scale(3);   
+}
+
+.descricao_task {
+    margin-left: 10px;
+    font-size: 18px;
+    max-width: 90%;
+    overflow-wrap: break-word;
+}
+
+#div_registro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.botao_remover {
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    border-radius: 25px;
+    border-style: inset;
+}
+
+.botao_remover:hover {
+    background-color: red;
+    color: white;
+}
+
+
+#o_form{
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+
+
+}
+
+.botao_submit{
+    width: 100%; 
+    padding: 10px; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: white; 
+    cursor: pointer; 
+}
+
+#o_input{
+    width: 100%; 
+    padding: 10px; 
+    font-size: 18px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
